@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  background-color: #e8f4f8;
+}
+
+html, body, #root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root > div {
+  flex-grow: 1;
+}
+
+
